@@ -1,0 +1,22 @@
+# Environment and user config
+.env
+config.json
+
+# Output
+output/
+archive/
+*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

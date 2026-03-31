@@ -1,0 +1,26 @@
+{
+  "topic": "example_ai-memory",
+  "img_dir": "./output/example_ai-memory",
+  "tweets": [
+    {
+      "role": "HOOK",
+      "text": "GPUs are getting faster every year.\n\nBut memory bandwidth? Barely keeping up.\n\nThis is the \"memory wall\" — and it's the real bottleneck for AI.\n\nHere's what's happening (thread)",
+      "images": ["tweet1_img1.png", "tweet1_img2.png"]
+    },
+    {
+      "role": "CORE",
+      "text": "The fix isn't just \"more memory.\"\n\nResearchers found that reorganizing how data flows — KV Cache compression + sparse attention — cuts memory use by 60%.\n\nSame accuracy. 2x throughput.",
+      "images": ["tweet2_img1.png", "tweet2_img2.png"]
+    },
+    {
+      "role": "DEPTH",
+      "text": "Why this matters for the industry:\n\n- Smaller models can now rival larger ones\n- Inference costs drop significantly\n- Edge deployment becomes viable\n\nThe bottleneck is shifting from compute to architecture.",
+      "images": ["tweet3_img1.png", "tweet3_img2.png"]
+    },
+    {
+      "role": "CLOSE",
+      "text": "The future of AI isn't just bigger models.\n\nIt's smarter memory.\n\nFollow for more visual AI explainers!",
+      "images": ["tweet4_img1.png"]
+    }
+  ]
+}

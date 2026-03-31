@@ -1,0 +1,42 @@
+{
+  "translation": {
+    "source_language": "Chinese",
+    "target_language": "English",
+    "tone": "casual tech English, like a knowledgeable friend explaining",
+    "char_ratio": 1.2,
+    "preserve_terms": ["GPU", "CPU", "LLM", "API", "KV Cache", "Transformer"],
+    "max_lines_ratio": 1.0
+  },
+  "overlay": {
+    "font_family": "Inter",
+    "font_styles": ["Regular", "Bold"],
+    "right_margin_px": 4,
+    "neighbor_gap_px": 8
+  },
+  "thread": {
+    "structure": [
+      {"role": "HOOK", "desc": "Data shock + problem definition", "images": 2},
+      {"role": "CORE", "desc": "Technical breakthrough + surprising result", "images": 2},
+      {"role": "DEPTH", "desc": "Industry value + broader perspective", "images": 2},
+      {"role": "CLOSE", "desc": "Punchline + CTA", "images": 2}
+    ],
+    "max_chars": 280,
+    "max_tweets": 25,
+    "cta": "Follow for more visual explainers!",
+    "signature": "",
+    "thread_emoji": true
+  },
+  "brand": {
+    "name": "YourBrand",
+    "x_handle": "@your_handle",
+    "name_mappings": {
+      "YourSourceName": "YourBrand"
+    }
+  },
+  "output": {
+    "export_dir": "./output",
+    "image_scale": 2,
+    "image_naming": "tweet{tweet_num}_img{img_num}.png",
+    "archive_dir": "./archive"
+  }
+}

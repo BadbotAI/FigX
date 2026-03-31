@@ -1,0 +1,29 @@
+{
+  "mcpServers": {
+    "figma": {
+      "type": "url",
+      "url": "https://mcp.figma.com/mcp",
+      "_comment": "Official Figma Remote MCP. Reads/writes text in Figma files. Requires Figma account with MCP beta enabled."
+    },
+    "figma-export": {
+      "command": "npx",
+      "args": ["-y", "figma-mcp-full-server"],
+      "env": {
+        "FIGMA_PERSONAL_ACCESS_TOKEN": "<your-figma-pat>"
+      },
+      "_comment": "Exports PNG images from Figma. Get a PAT at https://www.figma.com/developers/api#access-tokens"
+    },
+    "x-twitter": {
+      "command": "node",
+      "args": ["<path-to>/x-mcp/dist/index.js"],
+      "env": {
+        "X_API_KEY": "<from .env>",
+        "X_API_SECRET": "<from .env>",
+        "X_ACCESS_TOKEN": "<from .env>",
+        "X_ACCESS_TOKEN_SECRET": "<from .env>",
+        "X_BEARER_TOKEN": "<from .env>"
+      },
+      "_comment": "X/Twitter MCP from github.com/Infatoshi/x-mcp. Used for posting tweets and uploading media."
+    }
+  }
+}
